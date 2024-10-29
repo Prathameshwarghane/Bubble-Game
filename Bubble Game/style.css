@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+        
+html,body {
+    height: 100%;
+    width: 100%;
+    font-family: "Gilroy";
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+   
+
+}
+#panel{
+    height: 80%;
+    width: 80%;
+    background-color: greenyellow;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#ptop{
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    padding: 0% 30%;
+    justify-content: space-around;
+    height: 60px;
+
+}
+.elem{
+    padding: 1.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.box{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}
+#pbottom{
+    width: 100%;
+    height:calc(100% - 60px);
+    z-index: 9;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(29, 98, 98);
+    color: whitesmoke;
+    border-radius: 50%;
+
+    font-size: 40px;
+}
+.bubble:hover{
+    background-color: rgb(171, 251, 251) ;
+    color: black;
+    cursor: pointer;
+}
+ 
